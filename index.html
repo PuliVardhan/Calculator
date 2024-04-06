@@ -5,9 +5,10 @@
         
         <title>Calculator-By Code Traversal</title>
         <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
-        <div class="container">
+        <div class="container" id="body">
         <div class="calculator" class="body">
             <style type="stylesheet"></style>
             <style type="text/css"></style>
@@ -19,31 +20,31 @@
             <input type="button"value="AC" class="button-operater" onclick="display.value=''">
             <input type="button"value="DEL" class="button-operater" onclick="display.value= display.value.toString().slice(0,-1)">
             <input type="button" value="%" class="number"  onclick="display.value+='%'">
-            <input type="button" value="/" class="number" onclick="display.value+='/'">
+            <input type="button" value="/" class="number1"  onclick="display.value+='/'">
         </div>
         <div>
-            <input type="button" value="7" class="number" onclick="display.value +='7'" >
-            <input type="button" value="8" class="number" onclick="display.value+='8'">
-            <input type="button" value="9" class="number"onclick="display.value+='9'">
-            <input type="button" value="*" class="number" onclick="display.value+='*'">
+            <input type="button" value="7" class="number2" onclick="display.value +='7'" >
+            <input type="button" value="8" class="number2" onclick="display.value+='8'">
+            <input type="button" value="9" class="number2"onclick="display.value+='9'">
+            <input type="button" value="*" class="number2" onclick="display.value+='*'">
         </div>
         <div>
-            <input type="button" value="4" class="number" onclick="display.value+='4'">
-            <input type="button" value="5" class="number"onclick="display.value+='5'">
-            <input type="button" value="6" class="number"onclick="display.value+='6'">
-            <input type="button" value="-" class="number"onclick="display.value+='-'">
+            <input type="button" value="4" class="number2" onclick="display.value+='4'">
+            <input type="button" value="5" class="number2"onclick="display.value+='5'">
+            <input type="button" value="6" class="number2"onclick="display.value+='6'">
+            <input type="button" value="-" class="number2" onclick="display.value+='-'">
             
         </div>
         <div>
-            <input type="button" value="1"class="number"onclick="display.value+='1'">
-            <input type="button" value="2" class="number"onclick="display.value+='2'">
-            <input type="button" value="3"class="number"onclick="display.value+='3'">
-            <input type="button" value="+" class="number"onclick="display.value+='+'">
+            <input type="button" value="1"class="number2"onclick="display.value+='1'">
+            <input type="button" value="2" class="number2"onclick="display.value+='2'">
+            <input type="button" value="3"class="number2"onclick="display.value+='3'">
+            <input type="button" value="+" class="number2"onclick="display.value+='+'">
         </div>
 <div>
-    <input type="button" value="00" class="number"onclick="display.value='00'">
-    <input type="button" value="0" class="number"onclick="display.value='0'">
-    <input type="button" value="."class="number"onclick="display.value='.'">
+    <input type="button" value="00" class="number2"onclick="display.value='00'">
+    <input type="button" value="0" class="number2"onclick="display.value='0'">
+    <input type="button" value="."class="number2"onclick="display.value='.'">
     <input type="button" value="=" class="equalbtn" onclick="display.value=eval(display.value)">
 </div>  
 </form>
