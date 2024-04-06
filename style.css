@@ -81,7 +81,6 @@
 .equalbtn{
     background-color: orangered;
     position: relative;
-    top: -90px;
     left: 80px;
     width: 60px;
     text-align: center;
@@ -94,7 +93,8 @@
     left: 40px;
     top: -20px;
     width: 60px;
-    box-shadow: #857b7b;}
+    box-shadow: #857b7b;
+}
 .number1{
     padding: 20px 20px 20px 20px;
     background-color: #444343;
